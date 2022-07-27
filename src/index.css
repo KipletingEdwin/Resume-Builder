@@ -1,13 +1,137 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  background-color: purple;
+  height: 1000px;
+}
+.app h4
+ {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.resume {
+  background-color: red;
+  height: 1140px;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+.PersonalInfo {
+  background-color: yellow;
+  height: 300px;
+}
+
+.PersonalInfo input {
+  display: flex;
+  padding: 8px;
+  margin: 5px;
+  width: 27%;
+}
+.PersonalInfo button {
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px 30px;
+  margin: 5px;
+  border: 0.8px solid black;
+  cursor: pointer;
+}
+
+.Education {
+  background-color: blue;
+  height: 270px;
+}
+.Education input {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  width: 340px;
+}
+.Education button {
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px 30px;
+  margin: 5px;
+  border: 0.8px solid black;
+  cursor: pointer;
+}
+
+.Skills {
+  height: 140px;
+  margin-top: 10px;
+  background-color: green;
+  margin: 5px;
+}
+
+.Skills textarea {
+  width: 360px;
+  height: 40px;
+}
+.Skills button {
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px 30px;
+  margin: 5px;
+  border: 0.8px solid black;
+  cursor: pointer;
+}
+
+.Projects {
+  background-color: yellow;
+  height: 220px;
+  margin-top: 10px;
+}
+.Projects input {
+  display: flex;
+  margin-top: 5px;
+  padding: 5px;
+  width: 360px;
+}
+
+.Projects textarea{
+  padding: 5px;
+  margin: 5px 0px 5px 0px;
+  width: 360px;
+  height: 40px;
+}
+
+.Projects button {
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px 30px;
+  margin: 5px;
+  border: 0.8px solid black;
+  cursor: pointer;
+}
+
+.Languages {
+  height: 160px;
+  background-color: red;
+  padding-top: 10px;
+}
+
+.Languages input {
+  height: 60px;
+  width: 300px;
+  display: flex;
+  width: 360px;
+}
+.Languages button {
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px 30px;
+  margin: 5px;
+  border: 0.8px solid black;
+  cursor: pointer;
+}
+.final-resume{
+  background-color: orange;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid black;
+ 
 }
