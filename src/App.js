@@ -26,7 +26,7 @@ function App() {
   });
 
   function handleSubmit() {
-    fetch(" http://localhost:4000/resumes", {
+    fetch("http://localhost:4000/resumes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -41,6 +41,7 @@ function App() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
     console.log(formData);
   }
+  
 
   return (
     <div className="app">
@@ -74,10 +75,10 @@ function App() {
             setFormData={setFormData}
             handleChange={handleChange}
           />
-          <button onClick={handleSubmit}>Submit</button>
+          <button className="sub" onClick={handleSubmit}>Submit</button>
         </form>
         <ResumeContainer />
-        <Resume />
+        <Resume  />
       </div>
     </div>
   );

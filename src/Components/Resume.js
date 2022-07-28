@@ -1,6 +1,23 @@
 import React from "react";
 
-function Resume({ name, proffesion, email, phone, address, school,level,start,end,languages,description,project_url,skills,head }) {
+function Resume({ name, proffesion, email, phone, address, school,level,start,end,languages,description,project_url,skills,head ,handleDelete,id}) {
+  // function handleDelete(){
+  //   fetch(`http://localhost:4000/resumes/${id}`,{
+  //     method:"DELETE",
+  //   })
+  //   .then((res) => res.json())
+  //   .then(() =>onDelete(id));
+    
+  // }
+
+  // function onDelete(id) {
+  //   const updated = data.filter((item) => {
+  //     return item.id !== id;
+  //   });
+  //   setPoems(updated);
+  // }
+  
+  
   return (
     <div className="final-resume">
       <h2>Personal Information</h2>
@@ -26,6 +43,7 @@ function Resume({ name, proffesion, email, phone, address, school,level,start,en
 
       <h2>Languages</h2>
       <p>Languages:{languages}</p>
+      <button className="del" onClick={handleDelete} >Delete</button>
     </div>
   );
 }

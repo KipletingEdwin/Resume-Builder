@@ -6,6 +6,7 @@ body {
 .app {
   background-color: purple;
   height: 2500px;
+  padding: 20px;
 }
 .app h4
  {
@@ -15,7 +16,7 @@ body {
 
 .resume {
   background-color: red;
-  height: 1140px;
+  height: 1160px;
   margin: 20px;
   padding: 20px;
   border: 3px solid black;
@@ -23,14 +24,15 @@ body {
 
 .PersonalInfo {
   background-color: yellow;
-  height: 300px;
+  height: 270px;
+  margin-top: 5px;
 }
 
 .PersonalInfo input {
   display: flex;
   padding: 8px;
   margin: 5px;
-  width: 27%;
+  width: 280px;
 }
 .PersonalInfo button {
   background-color: red;
@@ -64,13 +66,13 @@ body {
   height: 140px;
   margin-top: 10px;
   background-color: green;
-  margin: 5px;
+ 
 }
 
 .Skills textarea {
   margin: 10px 0px 0px 5px;
-  width: 280px;
-  height: 40px;
+  width: 300px;
+  height: 100px;
 }
 .Skills button {
   background-color: red;
@@ -88,16 +90,17 @@ body {
 }
 .Projects input {
   display: flex;
-  margin-top: 5px;
+  margin: 5px;
   padding: 5px;
-  width: 280px;
+  width: 290px;
 }
 
 .Projects textarea{
   padding: 5px;
   margin: 5px 0px 5px 0px;
-  width: 280px;
+  width: 290px;
   height: 40px;
+  margin: 5px;
 }
 
 .Projects button {
@@ -111,15 +114,15 @@ body {
 
 .Languages {
   height: 160px;
-  background-color: red;
+  background-color:green;
   padding-top: 10px;
 }
 
 .Languages input {
   height: 60px;
-  width: 280px;
   display: flex;
-  width: 360px;
+  width: 290px;
+  margin: 5px;
 }
 .Languages button {
   background-color: red;
@@ -131,8 +134,24 @@ body {
 }
 .final-resume{
   background-color: orange;
-  margin: 30px;
+  margin: 30px 0px 0px 0px;
   padding: 20px;
   border: 1px solid black;
  
+}
+.sub{
+  background-color: yellow;
+  padding: 15px 30px;
+  margin: 10px 0px 0px 75px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 700;
+}
+.del{
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px 0px 0px 30px;
+  font-size: large;
 }
