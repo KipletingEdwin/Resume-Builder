@@ -1,8 +1,8 @@
-# Getting Started with Create React App
-
+# Project's Name
+This project goes bt the name Resume Builder
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project's Descriptions
 
 In the project directory, you can run:
 
