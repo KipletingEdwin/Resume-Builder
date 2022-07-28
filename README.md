@@ -1,8 +1,10 @@
-# Project's Name
+# Application's Name
 This project goes bt the name Resume Builder
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App].
 
-## Project's Descriptions
+## Applications's Descriptions
+This applications assist in generating Resumes of an individual.All you have to do is to fill in some few details and the application will generate aresume for you.
+
 
 In the project directory, you can run:
 
