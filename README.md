@@ -6,45 +6,47 @@ Kipleting Edwin
 
 ## Table Of Contents
 
-Current Version
- Brief description 
- Description
-  Set up/Installation Requirements
-   Features
-    Live Link 
-    Technologies Used 
-    Support Licence
-     Authors Info
+## Current Version
+The app is upto date
+
+ ## Brief description 
+ Resume Builder is an app that allows you to generate yor resume by filling in some few details.This 
 
 
-## Applications's Descriptions
-This applications assist in generating Resumes of an individual.All you have to do is to fill in some few details and the application will generate aresume for you.
+ ## Description
+ Resume Builder allows you to generate your Resume quickly and easier by filling in some few details.A customer needs to have his personaldetails like phone number and email.Also needed is EDucation details,Skills and Languages which he/she is conversant with
 
-## Application's set up instructions
-Head over to Githun and clone the application to your local machine using "git clone https://github.com/KipletingEdwin/Resume-Builder "
-Once in your local machine,change directory to that specific folder.
+ ## Set up/Installation 
+ Clone the Repo
+ Fork and Clone the repository in your local enviroment
+
+ ## Requirements
+ Access to a computer or any other garget Access to internet [Go Back to the top]
+
+## Features
+[Go Back to the top](#Kipleting Edwin) ## Features As a user of the application,you will be able to : 1. Employment of practical skills on and React Javascript HTML CSS languages in constructing a Resume Builder  application. [Go Back to the top](#KIpleting Edwin)
+
+##  Live Link 
+
+## Technologies Used 
+REACT- which was used to make an application with one html which enables users to navigate to different pages in one page. JS- Which was used to add interactivity on the web page. HTML - which was used to develope the structure off the pages. CSS - which was used to style the User Interface. [Go Back to the top]
+
+## Support 
+Feel free to reach me incase of bug issues
+
+## Licence
+MIT License Copyright (c) [2022] [Kipleting Edwin] Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. [Go Back to the top]
 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  Authors Info
+ Name :Kipleting Edwin
+ Email:edwin.kipleting@student.moringaschool.com
+ Phone Number:0728835275
 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
 
