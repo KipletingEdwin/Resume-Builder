@@ -1,15 +1,20 @@
-import React  from "react";
+import React from "react";
 
-function Languages(languageData, setLanguageData) {
+function Languages({formData,handleChange}) {
+
+
+
   return (
     <div className="Languages">
       <button>Add Languages</button>
       <input
         type="text"
-        id="languages"
-        value={languageData.languages}
+        name="languages"
+        onChange={handleChange}
+        value={formData.languages}
         placeholder="Add Languages"
       ></input>
+      
     </div>
   );
 }

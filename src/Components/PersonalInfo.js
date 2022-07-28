@@ -1,8 +1,9 @@
 import React from "react";
-// import { ReactDOM } from "react";
-// import App from '../App';
 
-function PersonalInfo(personalData, setPersobalData) {
+
+function PersonalInfo({formData,handleChange}) {
+
+
   return (
     <div className="PersonalInfo">
       <button>Personal Information</button>
@@ -10,34 +11,45 @@ function PersonalInfo(personalData, setPersobalData) {
       <div>
         <input
           type="text"
-          id="name"
           placeholder="Name"
-          value={personalData.name}
+          name="name"
+          onChange={handleChange}
+          value={formData.name}
+          
         />
         <input
           type="text"
-          id="proffesion"
+          name="proffesion"
           placeholder="Proffesion"
-          value={personalData.proffesion}
+          onChange={handleChange}
+          value={formData.proffesion}
+         
         />
         <input
           type="text"
-          id="email"
+          name="email"
           placeholder="Email"
-          value={personalData.email}
+          onChange={handleChange}
+          value={formData.email}
+        
         />
         <input
           type="text"
-          id="phone"
+          name="phone"
           placeholder="Phone Number"
-          value={personalData.phone}
+          onChange={handleChange}
+          value={formData.phone}
+        
         />
         <input
           type="text"
-          id="address"
+          name="address"
           placeholder="Address"
-          value={personalData.address}
+          onChange={handleChange}
+          value={formData.address}
+        
         />
+        {/* <button onClick={()=>handleClick(personalData)}>Complete</button> */}
       </div>
     </div>
   );

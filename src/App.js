@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 // import './App.css';
 import PersonalInfo from "./Components/PersonalInfo";
 import Education from "./Components/Education";
@@ -25,56 +25,47 @@ function App() {
     skills: "",
   });
 
-  const [eduData, setEduData] = useState({
-    school: "",
-    level: "",
-    start: "",
-    end: "",
-  });
+  // const [eduData, setEduData] = useState({
+  //   school: "",
+  //   level: "",
+  //   start: "",
+  //   end: "",
+  // });
 
-  const [languageData, setLanguageData] = useState({
-    languages: "",
-  });
+  // const [languageData, setLanguageData] = useState({
+  //   languages: "",
+  // });
 
-  const [personalData, setPersobalData] = useState({
-    name: "",
-    proffesion: "",
-    email: "",
-    phone: "",
-    address: "",
-  });
+  // const [personalData, setPersonalData] = useState({
+  //   name: "",
+  //   proffesion: "",
+  //   email: "",
+  //   phone: "",
+  //   address: "",
+  // });
 
-  const [projectData, setProjectData] = useState({
-    title: "",
-    description: "",
-    project_url: "",
-  });
+  // const [projectData, setProjectData] = useState({
+  //   title: "",
+  //   description: "",
+  //   project_url: "",
+  // });
 
-  const [skillData, setSkillData] = useState({
-    skills: "",
-  });
+  // const [skillData, setSkillData] = useState({
+  //   skills: "",
+  // });
 
-  function formSubmit() {
-    useEffect(() =>{
-      fetch ("http://localhost:4000/resumes")
-      .then ((res) =>res.json())
-      .then((cv) =>console.log(cv))
-    })
-   
+  // function handleClick(updatedState){
+  //   setFormData({...formData,updatedState})
+  //   console.log(formData)
+
+  // }
+
+  function handleChange(e){
+    setFormData({...formData,[e.target.name]:e.target.value})
+    console.log(formData)
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    fetch("  http://localhost:4000/resumes", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    });
-  }
-
-
+ 
 
   return (
     <div className="app">
@@ -82,13 +73,13 @@ function App() {
       <p>....Your Resume is just seconds aways...</p>
 
       <div className="resume">
-        <form onSubmit={formSubmit}>
-          <PersonalInfo />
-          <Education />
-          <Skills />
-          <Projects />
-          <Languages />
-          <button onClick={handleSubmit}>Submit</button>
+        <form>
+          <PersonalInfo  formData={formData} setFormData={setFormData} handleChange={handleChange} />
+          <Education  formData={formData} setFormData={setFormData} handleChange={handleChange} />
+          <Skills   formData={formData} setFormData={setFormData} handleChange={handleChange} />
+          <Projects  formData={formData} setFormData={setFormData} handleChange={handleChange} />
+          <Languages  formData={formData} setFormData={setFormData} handleChange={handleChange} />
+          <button>Submit</button>
         </form>
         <ResumeContainer />
         <Resume />

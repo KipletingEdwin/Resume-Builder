@@ -1,14 +1,20 @@
 import React from "react";
 
-function Skills(skillData, setSkillData) {
+function Skills({ formData,handleChange }) {
+
+  
+
+
   return (
     <div className="Skills">
       <textarea
         type="text"
-        value={skillData.skills}
-        id="skills"
+        name="skills"
+        onChange={handleChange}
+        value={formData.skills}
         placeholder="Enter your skillls"
       ></textarea>
+      
     </div>
   );
 }

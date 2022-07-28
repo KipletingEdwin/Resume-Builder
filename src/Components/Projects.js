@@ -1,26 +1,34 @@
 import React from "react";
 
-function Projects(projectData, setProjectData) {
+function Projects({formData,handleChange}) {
+
+
+
   return (
     <div className="Projects">
       <button>Projects</button>
       <input
         type="text"
-        id="title"
-        value={projectData.title}
+        name="head"
+        onChange={handleChange}
+        value={formData.head}
         placeholder="Title"
       />
       <textarea
-        id="description"
-        value={projectData.description}
+      type="text"
+        name="description"
+        onChange={handleChange}
+        value={formData.description}
         placeholder="Projects' Description"
       />
       <input
         type="text"
-        id="project_url"
-        value={projectData.project_url}
+        name="project_url"
+        onChange={handleChange}
+        value={formData.project_url}
         placeholder="Project URL"
       />
+     
     </div>
   );
 }

@@ -68,6 +68,7 @@ body {
 }
 
 .Skills textarea {
+  margin: 10px 0px 0px 5px;
   width: 360px;
   height: 40px;
 }
@@ -75,7 +76,7 @@ body {
   background-color: red;
   border-radius: 5px;
   padding: 8px 30px;
-  margin: 5px;
+  margin: 25px;
   border: 0.8px solid black;
   cursor: pointer;
 }
