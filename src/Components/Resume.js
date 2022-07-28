@@ -1,23 +1,39 @@
 import React from "react";
 
-function Resume({ name, proffesion, email, phone, address, school,level,start,end,languages,description,project_url,skills,head ,handleDelete,id}) {
-  // function handleDelete(){
-  //   fetch(`http://localhost:4000/resumes/${id}`,{
-  //     method:"DELETE",
+function Resume({
+  name,
+  proffesion,
+  email,
+  phone,
+  address,
+  school,
+  level,
+  start,
+  end,
+  languages,
+  description,
+  project_url,
+  skills,
+  head,
+  handleDelete,
+  id,
+  info,
+}) {
+  // function handleDelete() {
+  //   fetch(`http://localhost:4000/resumes/${id}`, {
+  //     method: "DELETE",
   //   })
-  //   .then((res) => res.json())
-  //   .then(() =>onDelete(id));
-    
+  //     .then((res) => res.json())
+  //     .then(() => onDelete(id));
   // }
 
   // function onDelete(id) {
   //   const updated = data.filter((item) => {
   //     return item.id !== id;
   //   });
-  //   setPoems(updated);
+  //   setFormData(updated);
   // }
-  
-  
+
   return (
     <div className="final-resume">
       <h2>Personal Information</h2>
@@ -28,8 +44,8 @@ function Resume({ name, proffesion, email, phone, address, school,level,start,en
       <p>Address:{address}</p>
 
       <h2>Education Details</h2>
-      <p>School:{school}</p> 
-       <p>Course:{level}</p>
+      <p>School:{school}</p>
+      <p>Course:{level}</p>
       <p>Start Date:{start}</p>
       <p>End Date:{end}</p>
 
@@ -43,7 +59,9 @@ function Resume({ name, proffesion, email, phone, address, school,level,start,en
 
       <h2>Languages</h2>
       <p>Languages:{languages}</p>
-      <button className="del" onClick={handleDelete} >Delete</button>
+      <button className="del" onClick={handleDelete}>
+        Delete
+      </button>
     </div>
   );
 }

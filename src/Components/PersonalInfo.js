@@ -1,9 +1,6 @@
 import React from "react";
 
-
-function PersonalInfo({formData,handleChange}) {
-
-
+function PersonalInfo({ formData, handleChange }) {
   return (
     <div className="PersonalInfo">
       <button>Personal Information</button>
@@ -15,7 +12,6 @@ function PersonalInfo({formData,handleChange}) {
           name="name"
           onChange={handleChange}
           value={formData.name}
-          
         />
         <input
           type="text"
@@ -23,7 +19,6 @@ function PersonalInfo({formData,handleChange}) {
           placeholder="Proffesion"
           onChange={handleChange}
           value={formData.proffesion}
-         
         />
         <input
           type="text"
@@ -31,7 +26,6 @@ function PersonalInfo({formData,handleChange}) {
           placeholder="Email"
           onChange={handleChange}
           value={formData.email}
-        
         />
         <input
           type="text"
@@ -39,7 +33,6 @@ function PersonalInfo({formData,handleChange}) {
           placeholder="Phone Number"
           onChange={handleChange}
           value={formData.phone}
-        
         />
         <input
           type="text"
@@ -47,7 +40,6 @@ function PersonalInfo({formData,handleChange}) {
           placeholder="Address"
           onChange={handleChange}
           value={formData.address}
-        
         />
         {/* <button onClick={()=>handleClick(personalData)}>Complete</button> */}
       </div>

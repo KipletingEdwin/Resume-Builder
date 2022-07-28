@@ -1,9 +1,6 @@
 import React from "react";
 
-function Projects({formData,handleChange}) {
-
-
-
+function Projects({ formData, handleChange }) {
   return (
     <div className="Projects">
       <button>Projects</button>
@@ -15,7 +12,7 @@ function Projects({formData,handleChange}) {
         placeholder="Title"
       />
       <textarea
-      type="text"
+        type="text"
         name="description"
         onChange={handleChange}
         value={formData.description}
@@ -28,7 +25,6 @@ function Projects({formData,handleChange}) {
         value={formData.project_url}
         placeholder="Project URL"
       />
-     
     </div>
   );
 }

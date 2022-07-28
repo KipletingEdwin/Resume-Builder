@@ -1,9 +1,6 @@
 import React from "react";
 
-function Languages({formData,handleChange}) {
-
-
-
+function Languages({ formData, handleChange }) {
   return (
     <div className="Languages">
       <button>Add Languages</button>
@@ -14,7 +11,6 @@ function Languages({formData,handleChange}) {
         value={formData.languages}
         placeholder="Add Languages"
       ></input>
-      
     </div>
   );
 }

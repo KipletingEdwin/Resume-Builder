@@ -1,12 +1,6 @@
 import React from "react";
 
-function Education({formData,handleChange }) {
-
-
-
-
-
-
+function Education({ formData, handleChange }) {
   return (
     <div className="Education">
       <button>Education Details</button>
@@ -32,12 +26,12 @@ function Education({formData,handleChange }) {
         placeholder="Start Date"
       />
       <input
-       type="text"
-        name="end" 
+        type="text"
+        name="end"
         onChange={handleChange}
         value={formData.end}
-       placeholder="End Date" />
-     
+        placeholder="End Date"
+      />
     </div>
   );
 }

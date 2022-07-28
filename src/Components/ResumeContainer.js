@@ -11,9 +11,7 @@ function ResumeContainer() {
   }, []);
 
   const resumeList = info.map((data, index) => {
-    
     return (
-      
       <Resume
         name={data.name}
         proffesion={data.proffesion}
@@ -29,8 +27,6 @@ function ResumeContainer() {
         skills={data.skills}
         projectT={data.head}
         id={data.id}
-        
-
       />
     );
   });

@@ -1,10 +1,6 @@
 import React from "react";
 
-function Skills({ formData,handleChange }) {
-
-  
-
-
+function Skills({ formData, handleChange }) {
   return (
     <div className="Skills">
       <textarea
@@ -14,7 +10,6 @@ function Skills({ formData,handleChange }) {
         value={formData.skills}
         placeholder="Enter your skillls"
       ></textarea>
-      
     </div>
   );
 }

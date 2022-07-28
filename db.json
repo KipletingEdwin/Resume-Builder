@@ -1,6 +1,5 @@
 {
   "resumes": [
-
     {
       "school": "Machakos University",
       "level": "Bsc Statistics",
@@ -17,6 +16,40 @@
       "skills": "REact,JS,JavaScript",
       "head": "Pata Keja",
       "id": 4
+    },
+    {
+      "school": "Machakos University",
+      "level": "Bsc Statistics",
+      "start": "2014",
+      "end": "2017",
+      "languages": "English,Kiswahili and Kalenjin",
+      "name": "Kipleting Edwin",
+      "proffesion": "Software Developer",
+      "email": "kipletingedwin4@gmail.com",
+      "phone": "0728835275",
+      "address": "1318,Eldoret",
+      "description": "Its all about booking a house at a atap of a button",
+      "project_url": "www.bookkejayako.com",
+      "skills": "JavaScript,React,HTML,CSS",
+      "head": "Pata Keja",
+      "id": 5
+    },
+    {
+      "school": "Machakos University",
+      "level": "Bsc Statistics",
+      "start": "2014",
+      "end": "2017",
+      "languages": "Kiswahili,English,Kalenjin",
+      "name": "EDWIN",
+      "proffesion": "Software Developer",
+      "email": "kipletingedwin4@gmail.com",
+      "phone": "0728835275",
+      "address": "1318,Eldoret",
+      "description": "",
+      "project_url": "www.bookkejayako.com",
+      "skills": "html,css,JavaScript",
+      "head": "Pata Keja",
+      "id": 6
     }
   ]
 }
