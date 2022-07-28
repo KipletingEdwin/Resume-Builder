@@ -5,7 +5,7 @@ body {
 
 .app {
   background-color: purple;
-  height: 1000px;
+  height: 2500px;
 }
 .app h4
  {
@@ -49,7 +49,7 @@ body {
   display: flex;
   padding: 10px;
   margin: 5px;
-  width: 340px;
+  width: 280px;
 }
 .Education button {
   background-color: red;
@@ -69,7 +69,7 @@ body {
 
 .Skills textarea {
   margin: 10px 0px 0px 5px;
-  width: 360px;
+  width: 280px;
   height: 40px;
 }
 .Skills button {
@@ -90,13 +90,13 @@ body {
   display: flex;
   margin-top: 5px;
   padding: 5px;
-  width: 360px;
+  width: 280px;
 }
 
 .Projects textarea{
   padding: 5px;
   margin: 5px 0px 5px 0px;
-  width: 360px;
+  width: 280px;
   height: 40px;
 }
 
@@ -117,7 +117,7 @@ body {
 
 .Languages input {
   height: 60px;
-  width: 300px;
+  width: 280px;
   display: flex;
   width: 360px;
 }
@@ -126,7 +126,7 @@ body {
   border-radius: 5px;
   padding: 8px 30px;
   margin: 5px;
-  border: 0.8px solid black;
+  border: 0.5px solid black;
   cursor: pointer;
 }
 .final-resume{

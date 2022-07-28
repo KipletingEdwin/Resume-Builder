@@ -12,13 +12,22 @@ function ResumeContainer() {
 
   const resumeList = info.map((data, index) => {
     return (
+      
       <Resume
         name={data.name}
         proffesion={data.proffesion}
         email={data.email}
         phone={data.phone}
         address={data.address}
-        key={index}
+        level={data.level}
+        start={data.start}
+        end={data.end}
+        languages={data.languages}
+        school={data.school}
+        project={data.project_url}
+        skills={data.skills}
+        projectT={data.head}
+
       />
     );
   });

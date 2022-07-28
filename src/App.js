@@ -25,47 +25,22 @@ function App() {
     skills: "",
   });
 
-  // const [eduData, setEduData] = useState({
-  //   school: "",
-  //   level: "",
-  //   start: "",
-  //   end: "",
-  // });
-
-  // const [languageData, setLanguageData] = useState({
-  //   languages: "",
-  // });
-
-  // const [personalData, setPersonalData] = useState({
-  //   name: "",
-  //   proffesion: "",
-  //   email: "",
-  //   phone: "",
-  //   address: "",
-  // });
-
-  // const [projectData, setProjectData] = useState({
-  //   title: "",
-  //   description: "",
-  //   project_url: "",
-  // });
-
-  // const [skillData, setSkillData] = useState({
-  //   skills: "",
-  // });
-
-  // function handleClick(updatedState){
-  //   setFormData({...formData,updatedState})
-  //   console.log(formData)
-
-  // }
-
-  function handleChange(e){
-    setFormData({...formData,[e.target.name]:e.target.value})
-    console.log(formData)
+  function handleSubmit() {
+    fetch(" http://localhost:4000/resumes", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((res) => res.json())
+      .then((info) => console.log(info));
   }
 
- 
+  function handleChange(e) {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+    console.log(formData);
+  }
 
   return (
     <div className="app">
@@ -74,12 +49,32 @@ function App() {
 
       <div className="resume">
         <form>
-          <PersonalInfo  formData={formData} setFormData={setFormData} handleChange={handleChange} />
-          <Education  formData={formData} setFormData={setFormData} handleChange={handleChange} />
-          <Skills   formData={formData} setFormData={setFormData} handleChange={handleChange} />
-          <Projects  formData={formData} setFormData={setFormData} handleChange={handleChange} />
-          <Languages  formData={formData} setFormData={setFormData} handleChange={handleChange} />
-          <button>Submit</button>
+          <PersonalInfo
+            formData={formData}
+            setFormData={setFormData}
+            handleChange={handleChange}
+          />
+          <Education
+            formData={formData}
+            setFormData={setFormData}
+            handleChange={handleChange}
+          />
+          <Skills
+            formData={formData}
+            setFormData={setFormData}
+            handleChange={handleChange}
+          />
+          <Projects
+            formData={formData}
+            setFormData={setFormData}
+            handleChange={handleChange}
+          />
+          <Languages
+            formData={formData}
+            setFormData={setFormData}
+            handleChange={handleChange}
+          />
+          <button onClick={handleSubmit}>Submit</button>
         </form>
         <ResumeContainer />
         <Resume />

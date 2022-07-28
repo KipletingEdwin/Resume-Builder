@@ -1,31 +1,31 @@
 import React from "react";
 
-function Resume({ name, proffesion, email, phone, address, school }) {
+function Resume({ name, proffesion, email, phone, address, school,level,start,end,languages,description,project_url,skills,head }) {
   return (
     <div className="final-resume">
-      <h1>Personal Information</h1>
-      <h2>Name:{name}</h2>
-      <h2>Proffesion:{proffesion}</h2>
+      <h2>Personal Information</h2>
+      <h3>Name:{name}</h3>
+      <p>Proffesion:{proffesion}</p>
       <p>Email:{email}</p>
       <p>Phone Number:{phone}</p>
       <p>Address:{address}</p>
 
-      <h1>Education Details</h1>
-      {/* <h1>School:{data.school}</h1> */}
-      {/* <h2>Class:{data.level}</h2>
-      <p>Start Date:{data.start}</p>
-      <p>End Date:{data.end}</p> */}
+      <h2>Education Details</h2>
+      <p>School:{school}</p> 
+       <p>Course:{level}</p>
+      <p>Start Date:{start}</p>
+      <p>End Date:{end}</p>
 
-      <h1>Skills</h1>
-      <p>Skills</p>
+      <h2>Skills</h2>
+      <p>Skills:{skills}</p>
 
-      <h1>Projects</h1>
-      <h3>Project Title</h3>
-      <p>Project_Description</p>
-      <p>Project_URL</p>
+      <h2>Projects</h2>
+      <h3>Project Title:{head}</h3>
+      <p>Project_Description:{description}</p>
+      <p>Project_URL:{project_url}</p>
 
-      <h1>Languages</h1>
-      <p>Languages</p>
+      <h2>Languages</h2>
+      <p>Languages:{languages}</p>
     </div>
   );
 }
