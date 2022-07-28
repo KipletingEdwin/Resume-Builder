@@ -50,6 +50,23 @@
       "skills": "html,css,JavaScript",
       "head": "Pata Keja",
       "id": 6
+    },
+    {
+      "school": "Machakos University",
+      "level": "Bsc Statistics",
+      "start": "2014",
+      "end": "2017",
+      "languages": "Kiswahili,English,Kalenjin",
+      "name": "Kipleting Edwin",
+      "proffesion": "Software Developer",
+      "email": "kipletingedwin4@gmail.com",
+      "phone": "0728835275",
+      "address": "1318,Eldoret",
+      "head": "Pata Keja",
+      "description": "Its all about having a house at a tap of a button",
+      "project_url": "www.patakeja.com",
+      "skills": "HTML,CSS,JavaScript",
+      "id": 7
     }
   ]
 }

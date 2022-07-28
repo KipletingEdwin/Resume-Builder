@@ -8,6 +8,8 @@ import Projects from "./Components/Projects";
 import ResumeContainer from "./Components/ResumeContainer";
 import Resume from "./Components/Resume";
 
+
+
 function App() {
   const [formData, setFormData] = useState({
     school: "",
@@ -20,13 +22,39 @@ function App() {
     email: "",
     phone: "",
     address: "",
+    head:"",
     description: "",
     project_url: "",
     skills: "",
   });
+
+  function handleChange(e) {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+    
+  }
   
 
-  function handleSubmit() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (formData.languages ===""|| 
+    formData.phone ===""     ||
+    formData.address ==="" ||
+    formData.school === "" ||
+    formData.level ===""||
+    formData.start ===""||
+    formData.end ===""||
+    formData.name ===""||
+    formData.proffesion ===""||
+    formData.email ===""||
+    formData.head ===""||
+    formData.description ===""||
+    formData.project_url ===""||
+    formData.skills ===""
+
+
+    ){
+      alert ("Please fill in all fields")
+    } else{
     fetch("http://localhost:4000/resumes", {
       method: "POST",
       headers: {
@@ -36,12 +64,13 @@ function App() {
     })
       .then((res) => res.json())
       .then((info) => console.log(info));
+      setFormData({...formData,phone:"",address:"",school:"",level:"",start:"",end:"",name:"",proffesion:"",email:"",head:"",description:"",project_url:"",skills:""})
   }
 
-  function handleChange(e) {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-    console.log(formData)
-  }
+  
+
+  
+}
 
   return (
     <div className="app">
