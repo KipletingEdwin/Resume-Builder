@@ -28,6 +28,8 @@ function ResumeContainer() {
         projectT={data.head}
         projectdescription={data.description}
         id={data.id}
+        setInfo={setInfo}
+        data={data}
       />
     );
   });

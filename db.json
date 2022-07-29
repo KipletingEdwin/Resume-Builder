@@ -1,40 +1,6 @@
 {
   "resumes": [
     {
-      "school": "Machakos University",
-      "level": "Bsc Statistics",
-      "start": "2014",
-      "end": "2017",
-      "languages": "Kiswahili,English,Kalenjin",
-      "name": "Kipleting Edwin",
-      "proffesion": "Software Developer",
-      "email": "kipletingedwin4@gmail.com",
-      "phone": "0728835275",
-      "address": "1318,Eldoret",
-      "head": "Pata Keja",
-      "description": "Its all about having a house at a tap of a button",
-      "project_url": "www.patakeja.com                                  ",
-      "skills": "Data Analysis,React,HTML,CSS,JavaScript",
-      "id": 1
-    },
-    {
-      "school": "Moringa School",
-      "level": "Data Science",
-      "start": "2020",
-      "end": "2020",
-      "languages": "English,Kiwahili and Kalenjin",
-      "name": "Peter Kwoba",
-      "proffesion": "Data Scientist",
-      "email": "peterkwoba12@gmail.com",
-      "phone": "0712345678",
-      "address": "2903, Nakuru",
-      "head": "SortDataYako",
-      "description": "Its about having your data clean at a tap of a button",
-      "project_url": "www.sortdatayako.com",
-      "skills": "Data Analysis,Data Mining,Data Cleaning",
-      "id": 2
-    },
-    {
       "school": "Kenta Medical Training College",
       "level": "Diploma in Physiotherapy",
       "start": "2010",
@@ -50,23 +16,6 @@
       "project_url": "www.punguzastress.com",
       "skills": "Physiotherapist",
       "id": 3
-    },
-    {
-      "school": "More Academy",
-      "level": "Diploma in Instrumentals",
-      "start": "2010-02-23",
-      "end": "2010-11-23",
-      "languages": "Kiswahili",
-      "name": "John Doe",
-      "proffesion": "Disk Jockey",
-      "email": "djjohndoe9@gmail.com",
-      "phone": "0700227755",
-      "address": "2590 Mombasa",
-      "head": "5 mixtapes",
-      "description": "All are reggae mixtapes which can be downloaded online",
-      "project_url": "www.djjohndoe.com",
-      "skills": "Disk Jockeying",
-      "id": 4
     }
   ]
 }

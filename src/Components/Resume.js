@@ -16,23 +16,27 @@ function Resume({
   projectT,
   projectURL,
   projectdescription,
+  setInfo,
   id,
+  data,
   info,
-}) {
-  // function handleDelete() {
-  //   fetch(`http://localhost:4000/resumes/${id}`, {
-  //     method: "DELETE",
-  //   })
-  //     .then((res) => res.json())
-  //     .then(() => onDelete(id));
-  // }
 
-  // function onDelete(id) {
-  //   const updated = data.filter((item) => {
-  //     return item.id !== id;
-  //   });
-  //   setFormData(updated);
-  // }
+
+}) {
+  function handleDelete() {
+    fetch(`http://localhost:4000/resumes/${id}`, {
+      method: "DELETE",
+    })
+      .then((res) => res.json())
+      .then(() => onDelete(id));
+  }
+
+  function onDelete(id) {
+    const updated = data.filter((item) => {
+      return item.id !== id;
+    });
+    setInfo(updated);
+  }
 
   return (
     <div className="final-resume">
