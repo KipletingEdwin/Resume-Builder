@@ -18,7 +18,7 @@ body {
 } */
 
 .resume {
-  background-color: white;
+  background-color: rgb(47, 121, 174);
   height: 1160px;
   margin: 20px;
   padding: 20px;
@@ -68,13 +68,14 @@ body {
 .Skills {
   height: 140px;
   margin-top: 10px;
-  background-color: green;
+  
+  border: 1px solid black;
 }
 
 .Skills textarea {
-  margin: 10px 0px 0px 5px;
+  margin: 0px 0px 0px 5px;
   width: 300px;
-  height: 100px;
+  height: 60px;
 }
 .Skills button {
   background-color: red;
@@ -86,9 +87,11 @@ body {
 }
 
 .Projects {
-  background-color: yellow;
+  /* background-color:white; */
   height: 220px;
   margin-top: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
 .Projects input {
   display: flex;
@@ -141,7 +144,7 @@ body {
   border: 1px solid black;
 }
 .sub {
-  background-color: yellow;
+  background-color: rgb(152, 152, 216);
   padding: 15px 30px;
   margin: 10px 0px 0px 75px;
   border: 1px solid black;

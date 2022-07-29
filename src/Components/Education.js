@@ -23,14 +23,14 @@ function Education({ formData, handleChange }) {
         name="start"
         onChange={handleChange}
         value={formData.start}
-        placeholder="Start Date"
+        placeholder="Start Year"
       />
       <input
         type="text"
         name="end"
         onChange={handleChange}
         value={formData.end}
-        placeholder="End Date"
+        placeholder="End Year"
       />
     </div>
   );

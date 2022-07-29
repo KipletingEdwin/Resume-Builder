@@ -64,7 +64,7 @@ function App() {
     })
       .then((res) => res.json())
       .then((info) => console.log(info));
-      setFormData({...formData,phone:"",address:"",school:"",level:"",start:"",end:"",name:"",proffesion:"",email:"",head:"",description:"",project_url:"",skills:""})
+      setFormData({...formData,phone:"",address:"",school:"",level:"",start:"",end:"",name:"",proffesion:"",email:"",head:"",description:"",project_url:"",skills:"",languages:""})
   }
 
   
