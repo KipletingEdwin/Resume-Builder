@@ -74,10 +74,11 @@ function App() {
 
   return (
     <div className="app">
-      <h4>RESUME BUILDER</h4>
-      <p>....Your Resume is just seconds away...</p>
+    
 
       <div className="resume">
+      <h4>RESUME BUILDER</h4>
+      <h6>....Your Resume is just seconds away...</h6>
         <form>
           <PersonalInfo
             formData={formData}
