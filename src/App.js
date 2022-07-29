@@ -75,7 +75,7 @@ function App() {
   return (
     <div className="app">
       <h4>RESUME BUILDER</h4>
-      <p>....Your Resume is just seconds aways...</p>
+      <p>....Your Resume is just seconds away...</p>
 
       <div className="resume">
         <form>
