@@ -11,11 +11,11 @@ function Resume({
   start,
   end,
   languages,
-  description,
-  project_url,
   skills,
-  head,
   handleDelete,
+  projectT,
+  projectURL,
+  projectdescription,
   id,
   info,
 }) {
@@ -53,9 +53,9 @@ function Resume({
       <p>Skills:{skills}</p>
 
       <h2>Projects</h2>
-      <p>Project Title:{head}</p>
-      <p>Project_Description:{description}</p>
-      <p>Project_URL:{project_url}</p>
+      <p>Project Title:{projectT}</p>
+      <p>Project_Description:{projectdescription}</p>
+      <p>Project_URL:{projectURL}</p>
 
       <h2>Languages</h2>
       <p>Languages:{languages}</p>

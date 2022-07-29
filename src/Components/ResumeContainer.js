@@ -23,9 +23,10 @@ function ResumeContainer() {
         end={data.end}
         languages={data.languages}
         school={data.school}
-        project={data.project_url}
+        projectURL={data.project_url}
         skills={data.skills}
         projectT={data.head}
+        projectdescription={data.description}
         id={data.id}
       />
     );

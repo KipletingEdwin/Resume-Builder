@@ -18,15 +18,17 @@ function Education({ formData, handleChange }) {
         value={formData.level}
         placeholder="Class/Degree"
       />
+      <label for="birthday">Start Date:</label>
       <input
-        type="text"
+        type="date"
         name="start"
         onChange={handleChange}
         value={formData.start}
         placeholder="Start Year"
       />
+      <label for="birthday">End Date:</label>
       <input
-        type="text"
+        type="date"
         name="end"
         onChange={handleChange}
         value={formData.end}

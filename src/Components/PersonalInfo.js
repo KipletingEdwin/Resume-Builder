@@ -28,7 +28,7 @@ function PersonalInfo({ formData, handleChange }) {
           value={formData.email}
         />
         <input
-          type="text"
+          type="number"
           name="phone"
           placeholder="Phone Number"
           onChange={handleChange}
@@ -41,7 +41,6 @@ function PersonalInfo({ formData, handleChange }) {
           onChange={handleChange}
           value={formData.address}
         />
-        {/* <button onClick={()=>handleClick(personalData)}>Complete</button> */}
       </div>
     </div>
   );

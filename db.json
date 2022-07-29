@@ -33,6 +33,40 @@
       "project_url": "www.sortdatayako.com",
       "skills": "Data Analysis,Data Mining,Data Cleaning",
       "id": 2
+    },
+    {
+      "school": "Kenta Medical Training College",
+      "level": "Diploma in Physiotherapy",
+      "start": "2010",
+      "end": "2013",
+      "languages": "French,Japanese,English",
+      "name": "Hassan Mugambi",
+      "proffesion": "Doctor",
+      "email": "hassanmugambi2@gmail.com",
+      "phone": "0719876543",
+      "address": "3547 Nakuru",
+      "head": "Punguza stress",
+      "description": "Its all about stress free society",
+      "project_url": "www.punguzastress.com",
+      "skills": "Physiotherapist",
+      "id": 3
+    },
+    {
+      "school": "More Academy",
+      "level": "Diploma in Instrumentals",
+      "start": "2010-02-23",
+      "end": "2010-11-23",
+      "languages": "Kiswahili",
+      "name": "John Doe",
+      "proffesion": "Disk Jockey",
+      "email": "djjohndoe9@gmail.com",
+      "phone": "0700227755",
+      "address": "2590 Mombasa",
+      "head": "5 mixtapes",
+      "description": "All are reggae mixtapes which can be downloaded online",
+      "project_url": "www.djjohndoe.com",
+      "skills": "Disk Jockeying",
+      "id": 4
     }
   ]
 }
