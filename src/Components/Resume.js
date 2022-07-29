@@ -53,7 +53,7 @@ function Resume({
       <p>Skills:{skills}</p>
 
       <h2>Projects</h2>
-      <h3>Project Title:{head}</h3>
+      <p>Project Title:{head}</p>
       <p>Project_Description:{description}</p>
       <p>Project_URL:{project_url}</p>
 
