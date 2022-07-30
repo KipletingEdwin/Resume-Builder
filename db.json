@@ -1,21 +1,21 @@
 {
   "resumes": [
     {
-      "school": "Kenta Medical Training College",
-      "level": "Diploma in Physiotherapy",
-      "start": "2010",
-      "end": "2013",
-      "languages": "French,Japanese,English",
-      "name": "Hassan Mugambi",
-      "proffesion": "Doctor",
-      "email": "hassanmugambi2@gmail.com",
-      "phone": "0719876543",
-      "address": "3547 Nakuru",
-      "head": "Punguza stress",
-      "description": "Its all about stress free society",
-      "project_url": "www.punguzastress.com",
-      "skills": "Physiotherapist",
-      "id": 3
+      "school": "Machakos University",
+      "level": "Bsc Statistics",
+      "start": "2014-09-04",
+      "end": "2018-11-30",
+      "languages": "English,Kiwahili and Kalenjin",
+      "name": "Kipleting Edwin",
+      "proffesion": "Software Developer",
+      "email": "kipletingedwin4@gmail.com",
+      "phone": "0728835275",
+      "address": "1318,Eldoret",
+      "head": "Pata Keja",
+      "description": "Have a house ata a tap of a button",
+      "project_url": "www.bookkejayako.com",
+      "skills": "React,JavaScript,HTML,CSS",
+      "id": 1
     }
   ]
 }

@@ -160,6 +160,10 @@ body {
   font-style: italic;
   text-decoration: underline;
 }
+.final-resume span{
+  text-decoration: underline;
+  font-weight: 600;
+}
 .sub {
   background-color: rgb(152, 152, 216);
   padding: 15px 30px;

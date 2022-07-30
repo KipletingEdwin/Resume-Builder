@@ -12,7 +12,6 @@ function Resume({
   end,
   languages,
   skills,
-  handleDelete,
   projectT,
   projectURL,
   projectdescription,
@@ -41,28 +40,28 @@ function Resume({
   return (
     <div className="final-resume">
       <h2>Personal Information</h2>
-      <h3>Name:{name}</h3>
-      <p>Proffesion:{proffesion}</p>
-      <p>Email:{email}</p>
-      <p>Phone Number:{phone}</p>
-      <p>Address:{address}</p>
+      <h3><span>Name</span>:{name}</h3>
+      <p><span>Proffesion</span>:{proffesion}</p>
+      <p><span>Email</span>:{email}</p>
+      <p><span>Phone Number</span>:{phone}</p>
+      <p><span>Address</span>:{address}</p>
 
       <h2>Education Details</h2>
-      <p>School:{school}</p>
-      <p>Course:{level}</p>
-      <p>Start Date:{start}</p>
-      <p>End Date:{end}</p>
+      <p><span>School</span>:{school}</p>
+      <p><span>Course</span>:{level}</p>
+      <p><span>Start Date</span>:{start}</p>
+      <p><span>End Date</span>:{end}</p>
 
       <h2>Skills</h2>
-      <p>Skills:{skills}</p>
+      <p><span>Skills</span>:{skills}</p>
 
       <h2>Projects</h2>
-      <p>Project Title:{projectT}</p>
-      <p>Project_Description:{projectdescription}</p>
-      <p>Project_URL:{projectURL}</p>
+      <p><span>Project Title</span>:{projectT}</p>
+      <p><span>Project_Description</span>:{projectdescription}</p>
+      <p><span>Project_URL</span>:{projectURL}</p>
 
       <h2>Languages</h2>
-      <p>Languages:{languages}</p>
+      <p><span>Languages</span>:{languages}</p>
       <button className="del" onClick={handleDelete}>
         Delete
       </button>
