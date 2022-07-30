@@ -21,7 +21,7 @@ function PersonalInfo({ formData, handleChange }) {
           value={formData.proffesion}
         />
         <input
-          type="text"
+          type="email"
           name="email"
           placeholder="Email"
           onChange={handleChange}
