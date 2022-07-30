@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+// import{Routes,Route} from "react-router-dom";
+import NavBar from "./Components/Navbar";
 import PersonalInfo from "./Components/PersonalInfo";
 import Education from "./Components/Education";
 import Skills from "./Components/Skills";
@@ -25,9 +27,14 @@ function App() {
     project_url: "",
     skills: "",
   });
+  // const [page,setPage] =useState("/")
+
+
   function handleChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   }
+
+
   function handleSubmit(e) {
     e.preventDefault();
     if (formData.languages ===""|| 
@@ -56,7 +63,7 @@ function App() {
     })
       .then((res) => res.json())
       .then((info) => console.log(info));
-      setFormData({...formData,phone:"",address:"",school:"",level:"",start:"",end:"",name:"",proffesion:"",email:"",head:"",description:"",project_url:"",skills:"",languages:""})
+      setFormData({...formData,phone:"",address:"",school:"",level:"",start:"",end:"",name:"",proffesion:"",email:"",head:"",description:"",project_url:"",skills:"",languages:""},[])
   }
 }
   return (
@@ -65,31 +72,38 @@ function App() {
       <h4>RESUME BUILDER</h4>
       <h6>....Your Resume is just seconds away...</h6>
         <form>
+        <NavBar  />
+       
           <PersonalInfo
             formData={formData}
             setFormData={setFormData}
             handleChange={handleChange}
           />
+         
           <Education
             formData={formData}
             setFormData={setFormData}
             handleChange={handleChange}
           />
+          
           <Skills
             formData={formData}
             setFormData={setFormData}
             handleChange={handleChange}
           />
+        
           <Projects
             formData={formData}
             setFormData={setFormData}
             handleChange={handleChange}
           />
+       
           <Languages
             formData={formData}
             setFormData={setFormData}
             handleChange={handleChange}
           />
+        
           <button className="sub" onClick={handleSubmit}>
             Submit
           </button>

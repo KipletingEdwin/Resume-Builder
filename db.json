@@ -16,6 +16,57 @@
       "project_url": "www.bookkejayako.com",
       "skills": "React,JavaScript,HTML,CSS",
       "id": 1
+    },
+    {
+      "school": "Kenya Medicat Training College",
+      "level": "Diploma in Nursing",
+      "start": "2014-09-30",
+      "end": "2018-11-30",
+      "languages": "Kiswahili,English",
+      "name": "Peter Kwoba",
+      "proffesion": "Nurse",
+      "email": "peterkwoba12@gmail.com",
+      "phone": "0712345678",
+      "address": "2316L Limuru",
+      "head": "Patient treatment",
+      "description": "All abou taking care of my patients",
+      "project_url": "www.patientcare.com",
+      "skills": "Nursing,Home Caring",
+      "id": 2
+    },
+    {
+      "school": "Kenyatta University",
+      "level": "Bsc Mecganical Engineering",
+      "start": "2017-09-19",
+      "end": "2021-11-25",
+      "languages": "French,English and Swahili",
+      "name": "John Doe",
+      "proffesion": "Mechanical Engineer",
+      "email": "johndoe@yahoo.com",
+      "phone": "0709876543",
+      "address": "3417 Mombasa",
+      "head": "n/a",
+      "description": "n/a",
+      "project_url": "n/a",
+      "skills": "Mechanical Enginnering",
+      "id": 3
+    },
+    {
+      "school": "Taita Taveta University",
+      "level": "Computer Science",
+      "start": "2016-01-05",
+      "end": "2020-11-30",
+      "languages": "Kiswahili,Englisj and Japanese",
+      "name": "Gabriel Sam",
+      "proffesion": "Coputer Scientist",
+      "email": "samgabriel@yahoo.com",
+      "phone": "0723562317",
+      "address": "8739 KIsumu",
+      "head": "Fix Bugger",
+      "description": "Its all about triying to quick fix bugs",
+      "project_url": "www.fixbugger.com",
+      "skills": "PHP,Laravell,Vue,",
+      "id": 4
     }
   ]
 }

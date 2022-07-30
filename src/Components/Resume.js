@@ -31,10 +31,10 @@ function Resume({
   }
 
   function onDelete(id) {
-    const updated = data.filter((item) => {
+    const updatedCv = data.filter((item) => {
       return item.id !== id;
     });
-    setInfo(updated);
+    setInfo(updatedCv);
   }
 
   return (
