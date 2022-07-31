@@ -52,7 +52,7 @@ function App() {
     ) {
       alert("Please fill in all fields");
     } else {
-      fetch("http://localhost:4000/resumes", {
+      fetch("https://resumebuildaresume.herokuapp.com/resumes", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

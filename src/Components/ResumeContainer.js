@@ -5,7 +5,7 @@ function ResumeContainer() {
   const [info, setInfo] = useState([]);
 
   useEffect(() => {
-    fetch(" http://localhost:4000/resumes")
+    fetch("https://resumebuildaresume.herokuapp.com/resumes")
       .then((res) => res.json())
       .then((data) => setInfo(data));
   }, []);

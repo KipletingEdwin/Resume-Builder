@@ -23,7 +23,7 @@ function Resume({
 
 }) {
   function handleDelete() {
-    fetch(`http://localhost:4000/resumes/${id}`, {
+    fetch(`https://resumebuildaresume.herokuapp.com/resumes/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
