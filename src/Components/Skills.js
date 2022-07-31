@@ -3,7 +3,7 @@ import React from "react";
 function Skills({ formData, handleChange }) {
   return (
     <div className="Skills">
-      <h2>Skills</h2>
+      <h3>Skills</h3>
       <textarea
         type="text"
         name="skills"

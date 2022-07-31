@@ -26,7 +26,7 @@ function App() {
     project_url: "",
     skills: "",
   });
-  // const [page,setPage] =useState("/")
+ 
 
   function handleChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value });

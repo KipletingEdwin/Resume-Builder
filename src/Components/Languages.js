@@ -3,7 +3,7 @@ import React from "react";
 function Languages({ formData, handleChange }) {
   return (
     <div className="Languages">
-      <button>Add Languages</button>
+      <h3>Languages</h3>
       <input
         type="text"
         name="languages"

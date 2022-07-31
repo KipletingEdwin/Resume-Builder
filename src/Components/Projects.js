@@ -3,7 +3,7 @@ import React from "react";
 function Projects({ formData, handleChange }) {
   return (
     <div className="Projects">
-      <button>Projects</button>
+     <h3>Projects</h3>
       <input
         type="text"
         name="head"

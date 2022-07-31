@@ -3,7 +3,7 @@ import React from "react";
 function Education({ formData, handleChange }) {
   return (
     <div className="Education">
-      <button>Education Details</button>
+      <h3>Education Details</h3>
       <input
         type="text"
         name="school"
