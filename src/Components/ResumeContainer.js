@@ -13,7 +13,7 @@ function ResumeContainer() {
   const resumeList = info.map((data, index) => {
     return (
       <Resume
-        name={data.name}
+        name={data.name}  
         proffesion={data.proffesion}
         email={data.email}
         phone={data.phone}

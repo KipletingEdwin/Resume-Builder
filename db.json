@@ -67,6 +67,23 @@
       "project_url": "www.fixbugger.com",
       "skills": "PHP,Laravell,Vue,",
       "id": 4
+    },
+    {
+      "school": "Kabarak University",
+      "level": "Diploma in Dietetics",
+      "start": "2018-12-25",
+      "end": "2020-06-16",
+      "languages": "English,Kiswahili",
+      "name": "Harry Jones",
+      "proffesion": "Dentist",
+      "email": "harryjones@gmail.com",
+      "phone": "0734217638",
+      "address": "3453 Kitale",
+      "head": "n/a",
+      "description": "n/a",
+      "project_url": "n/a",
+      "skills": "Dentist",
+      "id": 5
     }
   ]
 }

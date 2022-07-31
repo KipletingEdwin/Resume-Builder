@@ -3,18 +3,14 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
     
-    // function handleLinkClick(e) {
-    //     e.preventDefault()
-    //     onChangePage(e.target.pathname)
-    // }
-    
     return (
         <nav>
-            <NavLink to="/" exact>Personal Information</NavLink>
-            <NavLink to="/education" exact>Education Details</NavLink>
-            <NavLink to="/skills" exact>Skills</NavLink>
-            <NavLink to="/projects" exact>Projects</NavLink>
-            <NavLink to="/languages" exact>Languages</NavLink>
+            <NavLink to="/" >Home</NavLink>
+            <NavLink to="/personalinformation" >Personal Information</NavLink>
+            <NavLink to="/education" >Education Details</NavLink>
+            <NavLink to="/skills" >Skills</NavLink>
+            <NavLink to="/projects" >Projects</NavLink>
+            <NavLink to="/languages" >Languages</NavLink>
         </nav>
     );
 }
